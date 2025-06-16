@@ -1,0 +1,104 @@
+# Kat AI - Personal AI Assistant .gitignore
+
+# CRITICAL: Never commit personal data
+conversations.json
+conversations/
+*.json
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+kat-env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Model files (if you download any locally)
+*.bin
+*.safetensors
+models/
+
+# Backup files
+*.bak
+backup/
+backups/
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+.env
+.env.local
+
+# Chat history exports (keep these private!)
+chat_history/
+exports/
+data/
